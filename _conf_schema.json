@@ -1,0 +1,20 @@
+{
+  "concise_mode": {
+    "description": "是否启用简洁回答模式",
+    "type": "bool",
+    "default": true,
+    "hint": "开启后，/btw 会提示模型尽量用更简短的方式回答。"
+  },
+  "max_sentences": {
+    "description": "建议回答句数上限",
+    "type": "int",
+    "default": 4,
+    "hint": "用于提示模型把 /btw 回答控制在较短范围内。建议 2-6。"
+  },
+  "prefix_reply": {
+    "description": "是否提示模型添加 [btw] 前缀",
+    "type": "bool",
+    "default": true,
+    "hint": "开启后，会提示模型在回复开头加上 [btw]，便于识别这是侧边问题回复。"
+  }
+}

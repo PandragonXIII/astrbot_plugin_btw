@@ -1,5 +1,6 @@
 name: astrbot_plugin_btw
-version: 0.1.0
+version: 0.1.1
 author: PandragonXIII
 desc: A /btw style side-question plugin for AstrBot.
-help: Send /btw <question> to ask a side question with lighter context carry-over.
+help: Send /btw <question> to ask a side question through a separate llm_generate call.
+astrbot_version: ">=4.5.7"
